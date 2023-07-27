@@ -1,21 +1,24 @@
 # check pytorch version
-import torch
 # from torch.utils.data import Dataset
 # from torchvision import datasets
 # from torchvision.transforms import ToTensor, Lambda
-import matplotlib.pyplot as plt
+import torch
+
 data = [[1, 2], [3, 4]]
 # torch.device("mps")
 x_data = torch.tensor(data)
 print(x_data)
-shape = (2, 3,)
+shape = (
+    2,
+    3,
+)
 rand_tensor = torch.rand(shape)
 ones_tensor = torch.ones(shape)
 zeros_tensor = torch.zeros(shape)
 
 print("Random Tensor:", rand_tensor)
-print(f"Ones Tensor:", ones_tensor)
-print(f"Zeros Tensor;", zeros_tensor)
+print("Ones Tensor:", ones_tensor)
+print("Zeros Tensor;", zeros_tensor)
 tensor = torch.rand(3, 4)
 
 print(f"Shape of tensor: {tensor.shape}")
