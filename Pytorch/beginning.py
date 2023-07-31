@@ -1,9 +1,9 @@
 import torch
+from torch import tensor, rand
 
 tensor = torch.rand(3, 4)
 print(f"Shape of tensor: {tensor.shape}")
 print(f"Datatype of tensor: {tensor.dtype}")
-
 
 a = torch.tensor([2.0], requires_grad=True)
 b = torch.tensor([6.0], requires_grad=True)
