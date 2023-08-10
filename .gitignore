@@ -1,2 +1,5 @@
 .DS_Store
 .ipynb_checkpoints
+Pytorch/mnist_data
+Pytorch/fashion-mnist_data
+Pytorch/cifar10_data
